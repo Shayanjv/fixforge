@@ -26,8 +26,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       "/api": {
-        target: "https://shy6565-fixforge-backend.hf.space
-",
+        target: "https://shy6565-fixforge-backend.hf.space",
         changeOrigin: true,
         secure: false,
       },
