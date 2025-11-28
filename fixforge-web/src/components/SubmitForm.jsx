@@ -5,8 +5,7 @@ import { Upload, X, Code2, FileCode } from "lucide-react";
 import { useUserContext } from "../context/UserContext";
 
 export default function SubmitForm() {
-  const API_BASE = "https://shy6565-fixforge-backend.hf.space
-";
+  const API_BASE = "https://shy6565-fixforge-backend.hf.space";
 
   const navigate = useNavigate();
   const { user } = useUserContext();
